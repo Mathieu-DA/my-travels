@@ -3,7 +3,7 @@ import Travel from "./Travel"
 
 const travels = [
     {
-        desination: "Bangui",
+        destination: "Bangui",
         country: "République centrafricaine",
         image: "https://www.un.org/africarenewal/sites/www.un.org.africarenewal/files/car12.jpg",
         distance: "6613 km",
@@ -25,7 +25,13 @@ const travels = [
         country: "Russia",
         image: "http://www.saint-petersburg.com/images/vyborg/autumn-view-of-vyborg-castle.jpg",
         distance: "2971 km",
-    } 
+    },
+    {
+        destination: "Madrid",
+        country: "Spain",
+        image: "https://congresosalcala.fgua.es/descargas/files/madrid1.jpg",
+        distance: "1340 km",
+    }
 ];
 
 const Travels = () => (
